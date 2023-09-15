@@ -1,0 +1,110 @@
+
+.dashboard{
+  height: 100vh;
+  padding: 20px;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+}
+.sidebar-title ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.sidebar-title{
+  margin-top: 20px;
+}
+.sidebar-title ul li span{
+
+  margin-left: 10px;
+}
+.nav-item{
+  margin-bottom: 20px;
+}
+.nav-item a{
+  padding: 14px;
+  color: #c7b4dc;
+}
+.nav-item a.active{
+  background-color: #8a21fa !important;
+}
+.nav-item li{
+  display: flex;
+  align-items: center;
+}
+.nav-item li span{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.nav-item a:hover{
+  background-color: #8a21fa !important;
+  color: #fff;
+}
+.Header .school-title p{
+margin-right: 10px !important;
+font-weight: 600;
+color: #2b3674;
+font-size: 18px;
+}
+.Header .school-title .logged{
+    margin-left: 40px;
+}
+.Header .school-title input{
+  border: 1px solid #2b3674;
+    padding: 0 10px;
+    border-radius: 6px;
+}
+.Header .school-title input::placeholder{
+  color: #a3aed0;
+}
+.user-icon{
+  background: #8a21fa;
+  height: 36px;
+  width: auto;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 6px;
+}
+.main-content{
+  display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+.main-content .card{
+  padding: 20px;
+  border-radius: 20px;
+}
+.group-bg{
+  background: #8a21fa;
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
+  padding: 4px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content h4{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #1b2559;
+}
+.card-content p{
+  text-align: center;
+  color: #a3aed0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main-content .row .col-lg-3 {
+  margin-bottom: 20px;
+}
+
+.sub-content{
+  border: 1px solid #d9d9d9;
+  flex: 1;
+  border-radius: 20px;
+}
